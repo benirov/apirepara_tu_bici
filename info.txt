@@ -1,0 +1,68 @@
+*tipo de usuarios:
+    usuarios
+    tiendas
+
+    usuarios:{
+        estructura basica de coleccion de usuario:
+            nombre
+            apellido
+            correo
+            direccion
+            sexo
+            info_bici
+            confirmacion_email
+            locacion_default
+
+        estructura basica de coleccion de historico_usuarios:
+            fecha
+            accion
+            idUsuario
+    }
+    
+    tiendas:{
+        estructura basica de coleccion de tiendas:
+            nombre: string
+            apellido: string
+            correo: string
+            direccion: string
+            sexo: string
+            confirmacion_email: booleano
+            locacion_default: string
+            servicios: array[
+                reparacion_basica: boleano
+                reparacion_avanzada: boleano
+                venta_productos: boleano
+
+            ]
+            horarios_entrada: fecha
+            horarios_salida:fecha
+            receso: booleano:
+            delivery: boleano
+            productos:array[
+                producto: array()
+            ]
+
+
+
+    
+        estructura basica de coleccion de historico_usuarios:
+            fecha
+            accion
+            idTienda
+    }
+
+    *servicio:
+        estructura basica de coleccion de historico_usuarios:
+            idUsuario:
+            idtTienda:
+            tipo servicio: 
+            descripcion_servicio:
+            nota_usuario:
+            calificacion_usuario_tienda:
+
+
+
+
+    
+
+
